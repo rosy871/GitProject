@@ -29,10 +29,16 @@ namespace GitProject.Controllers
 		}
 		public IActionResult Index3()   // added
 		{
+			int i1 = 0;
 			return View();
 		}
 
 		public IActionResult Privacy()
+        {
+            return View();
+        }
+        //Added privacy
+        public IActionResult Privacy2()
         {
             return View();
         }
@@ -42,18 +48,22 @@ namespace GitProject.Controllers
         {
             // This is an added comment by Per Gref
             return View();
+			int i1 = 0;
+			return View();
         }
 
         // Added About2 (Per Gref)
         public IActionResult About2()
         {
-            return View();
+			int i1 = 0;
+			return View();
         }
 
         // Added About3 (Per Gref)
         public IActionResult About3()
         {
-            return View();
+			int i1 = 0;
+			return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
