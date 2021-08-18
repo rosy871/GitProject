@@ -18,12 +18,17 @@ namespace GitProject.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+		public IActionResult Index()
+		{
+			return View();
+		}
 
-        public IActionResult Privacy()
+		public IActionResult Index2()	// added
+		{
+			return View();
+		}
+
+		public IActionResult Privacy()
         {
             return View();
         }
