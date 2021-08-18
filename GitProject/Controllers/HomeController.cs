@@ -40,6 +40,7 @@ namespace GitProject.Controllers
         // Added About (Per Gref)
         public IActionResult About()
         {
+            // This is an added comment by Per Gref
             return View();
         }
 
