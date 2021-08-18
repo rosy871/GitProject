@@ -23,7 +23,11 @@ namespace GitProject.Controllers
 			return View();
 		}
 
-		public IActionResult Index2()	// added
+		public IActionResult Index2()   // added
+		{
+			return View();
+		}
+		public IActionResult Index3()   // added
 		{
 			return View();
 		}
