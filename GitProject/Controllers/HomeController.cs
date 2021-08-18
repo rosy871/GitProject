@@ -46,6 +46,8 @@ namespace GitProject.Controllers
         // Added About (Per Gref)
         public IActionResult About()
         {
+            var txt = "rosy";
+            return View();
 			int i1 = 0;
 			int i2 = 0;
 			return View();
@@ -57,6 +59,8 @@ namespace GitProject.Controllers
 			int i1 = 0;
 			int i2 = 0;
 			return View();
+            var txt = "this is test";
+            return View();
         }
 
         // Added About3 (Per Gref)
