@@ -29,6 +29,7 @@ namespace GitProject.Controllers
 		}
 		public IActionResult Index3()   // added
 		{
+            int i = "2";
 			int i1 = 0;
 			return View();
 		}
