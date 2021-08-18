@@ -47,6 +47,7 @@ namespace GitProject.Controllers
         public IActionResult About()
         {
 			int i1 = 0;
+			int i2 = 0;
 			return View();
         }
 
@@ -54,6 +55,7 @@ namespace GitProject.Controllers
         public IActionResult About2()
         {
 			int i1 = 0;
+			int i2 = 0;
 			return View();
         }
 
@@ -61,6 +63,7 @@ namespace GitProject.Controllers
         public IActionResult About3()
         {
 			int i1 = 0;
+			int i2 = 0;
 			return View();
         }
 
