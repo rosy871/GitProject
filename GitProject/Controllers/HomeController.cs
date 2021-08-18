@@ -34,6 +34,12 @@ namespace GitProject.Controllers
             return View();
         }
 
+        // Added About2 (Per Gref)
+        public IActionResult About2()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
