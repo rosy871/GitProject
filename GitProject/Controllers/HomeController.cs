@@ -23,7 +23,11 @@ namespace GitProject.Controllers
 			return View();
 		}
 
-		public IActionResult Index2()	// added
+		public IActionResult Index2()   // added
+		{
+			return View();
+		}
+		public IActionResult Index3()   // added
 		{
 			return View();
 		}
@@ -46,6 +50,12 @@ namespace GitProject.Controllers
 
         // Added About2 (Per Gref)
         public IActionResult About2()
+        {
+            return View();
+        }
+
+        // Added About3 (Per Gref)
+        public IActionResult About3()
         {
             return View();
         }
