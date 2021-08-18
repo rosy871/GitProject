@@ -45,12 +45,14 @@ namespace GitProject.Controllers
         // Added About (Per Gref)
         public IActionResult About()
         {
+            var txt = "rosy";
             return View();
         }
 
         // Added About2 (Per Gref)
         public IActionResult About2()
         {
+            var txt = "this is test";
             return View();
         }
 
