@@ -73,6 +73,13 @@ namespace GitProject.Controllers
 			return View();
         }
 
+        // Added About4 in Local Personal Branch (Per Gref) 
+        public IActionResult About4()
+        {
+         
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
