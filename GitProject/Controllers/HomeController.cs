@@ -32,6 +32,11 @@ namespace GitProject.Controllers
         {
             return View();
         }
+        //Added privacy
+        public IActionResult Privacy2()
+        {
+            return View();
+        }
 
         // Added About (Per Gref)
         public IActionResult About()
