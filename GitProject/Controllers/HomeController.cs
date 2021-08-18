@@ -29,6 +29,7 @@ namespace GitProject.Controllers
 		}
 		public IActionResult Index3()   // added
 		{
+			int i1 = 0;
 			return View();
 		}
 
@@ -47,11 +48,15 @@ namespace GitProject.Controllers
         {
             var txt = "rosy";
             return View();
+			int i1 = 0;
+			return View();
         }
 
         // Added About2 (Per Gref)
         public IActionResult About2()
         {
+			int i1 = 0;
+			return View();
             var txt = "this is test";
             return View();
         }
@@ -59,7 +64,8 @@ namespace GitProject.Controllers
         // Added About3 (Per Gref)
         public IActionResult About3()
         {
-            return View();
+			int i1 = 0;
+			return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
