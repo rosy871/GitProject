@@ -31,6 +31,7 @@ namespace GitProject.Controllers
 		{
             int i = 2;
 			int i1 = 0;
+			i1 = 2;
 			return View();
 		}
 
