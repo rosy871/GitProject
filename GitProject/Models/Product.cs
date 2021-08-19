@@ -9,5 +9,6 @@ namespace GitProject.Models
 	{
 		public int id { get; set; }
 		public string Name { get; set; }
+		public int Age { get; set; }	// added in coredevelop branch
 	}
 }
