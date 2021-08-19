@@ -8,6 +8,6 @@ namespace GitProject.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
-		public int Name { get; set; }
+		public string Name { get; set; }	// fixed int to string in hotfix branch
 	}
 }
